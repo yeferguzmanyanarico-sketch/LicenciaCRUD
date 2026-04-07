@@ -22,7 +22,7 @@ public class App extends Application {
         scene.getStylesheets().add(getClass().getResource("/css/style.css").toExternalForm());
         //scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
 
-        stage.setTitle("Calc Basic");
+        stage.setTitle("CALCULADORA BASICA DE YEFER");
         stage.setScene(scene);
         stage.setResizable(true);
         stage.show();
