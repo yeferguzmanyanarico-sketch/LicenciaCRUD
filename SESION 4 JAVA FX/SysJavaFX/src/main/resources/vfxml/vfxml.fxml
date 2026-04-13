@@ -124,4 +124,8 @@
        </Pane>
 
    </center>
+   <styleClass>
+      <String fx:value="btn" />
+      <String fx:value="btn-primary" />
+   </styleClass>
 </BorderPane>
