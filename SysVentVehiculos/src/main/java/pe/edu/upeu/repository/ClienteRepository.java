@@ -6,6 +6,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ClienteRepository {
+
+    private static ClienteRepository instance = new ClienteRepository();
+
+    public static ClienteRepository getInstance(){
+        if(instance==null){
+            instance = new ClienteRepository();
+        }
+        return instance;
+    }
+
     List<Cliente> clientes = new ArrayList<>();
 
     public void  agregarCliente(Cliente c){
